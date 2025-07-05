@@ -2,15 +2,12 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
-    height: 100vh;
-}
 
 .author-info {
     font-size: 14px;
@@ -21,4 +18,14 @@ body {
 
 .author-info a {
     text-decoration: none;
+}
+
+.px {
+    padding: 70px 25px;
+}
+.gap {
+    gap: 20px;
+}
+.gap7{
+    gap: 7px;
 }

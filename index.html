@@ -18,12 +18,12 @@
   <!--You are welcome to delete these styles or modify them in your own stylesheet -->
 </head>
 
-<body class="inter">
+<body class="inter flex flex-col items-center justify-center h-auto min-h-screen bg-slate-200">
 
-  <section>
-    <header>
+  <section class="container w-[630px]">
+    <header class="bg-white flex flex-col items-center justify-center p-6 h-48">
 
-      <h1 class="text-3xl">Frequently Asked Questions</h1>
+      <h1 class="text-4xl">Frequently Asked Questions</h1>
 
       <p>Browse through the most frequently asked questions</p>
 
@@ -31,17 +31,17 @@
 
     <!-- full details section-->
 
-    <section>
+    <section class="bg-[#f9fafc] px gap flex flex-col">
 
       <!-- orderpolicy div -->
 
-      <div class="orderpolicy">
+      <div class="orderpolicy gap flex flex-col">
 
-        <h1>How can I track my order?</h1>
+        <h1 class="text-2xl">How can I track my order?</h1>
 
         <p>You can track your order using the following steps</p>
 
-        <ol>
+        <ol type="1" class="list-decimal pl-6 gap7 flex flex-col">
           <li>Go to the Order <a href="">Tracking page</a>.</li>
           <li>Enter your order number and email address.</li>
           <li>Click on the Track Order button to view the current status of your shipment.</li>
@@ -53,17 +53,19 @@
 
       </div>
 
+      <hr class="border-gray-300 my-6">
+
       <!-- returnpolicy div -->
 
-      <div class="returnpolicy">
+      <div class="returnpolicy gap flex flex-col">
 
-        <h1>What is your return policy?</h1>
+        <h1 class="text-2xl">What is your return policy?</h1>
 
         <p>
           We offer a 30-day return policy on most items. Here are some key points
         </p>
 
-        <ul>
+        <ul class="list-disc pl-6 gap7 flex flex-col">
           <li><b>Items must be in original condition:</b>Unworn, unused, and unwashed.</li>
           <li><b>Include original packaging and tags:</b>All items should be returned with their original packaging and
             tags.</li>
